@@ -1,0 +1,116 @@
+    1  $ CD
+    2  $ cd /
+    3  touch
+    4  touch file.txt
+    5  help cd
+    6  help
+    7  help cd/
+    8  man cd
+    9  ping google.com
+   10  systeminfo
+   11  igconfig
+   12  ifconfig
+   13  git--version
+   14  git --version
+   15  cd~/Desktop/HW_10
+   16  ls
+   17  cd ~/Desktop/HW_10
+   18  -c && rm ~/.bash_history
+   19  history -c && rm~/.bash_history
+   20  history -c && rm ~/.bash_history
+   21  -c && rm ~/.bash_history
+   22  rm ~/.zsh_history && touch ~/.zsh_history
+   23  ls
+   24  git config --global user.name Andrii.Kostela
+   25  git cinfig --get user.name
+   26  config --get user.name
+   27  git config --get user.name
+   28  git config --global user.email Kostela1992@gmail.com
+   29  git config --get user.email
+   30  git clone https://github.com/AndriiKostela/HM_10.git
+   31  ls-l
+   32  ls -l
+   33  cd test_repo
+   34  cd HM_10
+   35  ls -l
+   36  ls -la
+   37  touch text_ignore.txt
+   38  echo "text_ignore.txt" >> .gitignore
+   39  git status
+   40  git add
+   41  git add .
+   42  git commit -m "Add .gitignore and ignore text_ignore.txt"
+   43  touch main_test.txt
+   44  git add .
+   45  git comit - "Add main_test.txt"
+   46  git commit - "Add main_test.txt"
+   47  git commit -m "Add main_test.txt"
+   48  git checkout -b developer
+   49  touch develop_test.txt
+   50  git add .
+   51  git commit -m "Add develop_text.txt"
+   52  git status
+   53  echo small change > developer_test.txt
+   54  git status
+   55  git add .
+   56  git commit -m "Update develop_test.txt with a small change"
+   57  git checkout main
+   58  git merge developer
+   59  git status
+   60  git log
+   61  0 > command_list.csv
+   62  0 > command_list.csv
+   63  git add
+   64  git add .
+   65  git commit -m "Add command_list.csv"
+   66  git push origin main
+   67  git push origin main
+   68  git push origin main
+   69  git push origin main
+   70  git clone https://github.com/AndriiKostela/HW_10.git
+   71  git push origin main
+   72  clear
+   73  cd ~/Desktop/HW_10
+   74  -c && rm ~/.bash_history
+   75   rm ~/.zsh_history && touch ~/.zsh_history
+   76  git config --global user.email Kostela1992@gmail.com
+   77  git config --get user.name\nAndrii.Kostela
+   78  git config --global user.name Andrii.Kostela
+   79  git config --get user.name
+   80  git clone https://github.com/AndriiKostela/HW_10.git
+   81  cd HW_10
+   82  ls -l
+   83  touch text_ignore.txt
+   84  echo "text_ignore.txt" >> .gitignore
+   85  git status
+   86  git add .
+   87  git commit -m "Add .gitignore and ignore text_ignore.txt"
+   88  touch main_test.txt
+   89  git add .
+   90  git commit - "Add main_test.txt"
+   91  git commit -m "Add main_test.txt"
+   92  git checkout -b developer
+   93  git branch -d developer
+   94  git checkout -b develop
+   95  touch develop_test.txt
+   96  git add .
+   97  git commit -m "Add develop_text.txt"
+   98  echo just a  small change > developer_test.txt
+   99  git status
+  100  git add .
+  101  git commit -m "Update develop_test.txt with a small change"
+  102  git checkout main
+  103  git merge develop
+  104  git branch -d developer
+  105  git checkout develop
+  106  echo just a  small change > develop_test.txt
+  107  git status
+  108  git add .
+  109  git commit -m "Update develop_test.txt with a small change"
+  110  git checkout main
+  111  git merge develop  
+  112  git log
+  113  0 > command_list.csv
+  114  git add .
+  115  git commit -m "Add command_list.csv" 
+  116  git push origin main
